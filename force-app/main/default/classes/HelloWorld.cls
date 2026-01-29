@@ -6,5 +6,9 @@ public with sharing class HelloWorld {
         integer sum = firstNumber+secondNumber;
         system.debug('Sim Of two number : '+sum);
     }
+    public static void subtractTwoNumbers(integer firstNumber, integer secondNumber){
+        Integer diff = firstNumber-secondNumber;
+        system.debug('Difference : '+diff);
+    }
     
 }

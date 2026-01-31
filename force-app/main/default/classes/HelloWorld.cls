@@ -9,6 +9,7 @@ public with sharing class HelloWorld {
     public static void subtractTwoNumbers(integer firstNumber, integer secondNumber){
         Integer diff = firstNumber-secondNumber;
         system.debug('Difference : '+diff);
+        system.debug('debug added in subtract method');
     }
     
 }

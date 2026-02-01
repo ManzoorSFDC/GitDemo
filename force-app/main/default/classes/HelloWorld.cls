@@ -10,6 +10,7 @@ public with sharing class HelloWorld {
         Integer diff = firstNumber-secondNumber;
         system.debug('Difference : '+diff);
         system.debug('debug added in subtract method');
+        system.debug('One more debug is added');
     }
     
 }
